@@ -1,0 +1,46 @@
+# Maven
+target/
+build/
+out/
+bin/
+
+# Archivos compilados y ejecutables
+*.class
+*.jar
+*.war
+*.zip
+*.exe
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+.kotlin/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
