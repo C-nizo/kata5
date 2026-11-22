@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
 
-    private static final String BASE_URL = "http://localhost:8080";
+    private static final String BASE_URL = "http://localhost:8090";
 
     static void main() throws InterruptedException {
         try (HttpClient client = HttpClient.newHttpClient()) {
