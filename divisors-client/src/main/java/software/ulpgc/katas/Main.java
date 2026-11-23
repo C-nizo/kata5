@@ -29,7 +29,7 @@ public class Main {
             throws InterruptedException {
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(BASE_URL + "/api/" + version + "/divisors/" + number))
+                .uri(URI.create(BASE_URL + "/" + version + "/divisors/" + number))
                 .timeout(Duration.ofSeconds(5))
                 .GET()
                 .build();
